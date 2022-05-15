@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+</head>
+
+<body>
+    <header>
+    <div class="regular">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+                <p>Жилой комплекс</p>
+        </div>
+        <nav class="top-menu">
+            <ul>
+                <li>О компании</li>
+                <li>Район</li>
+                <li>Каталог квартир</li>
+                <li>Ипотека</li>
+                <li>Контакты</li>
+            </ul>
+        </nav>
+        <div class="burger-icon">
+
+        </div>
+    </div>
+     
+        </header>
+
+    <section class="first-view">
+        <div class="regular">
+            <h1>Жилой комплекс в&nbsp;историческом центре</h1>
+            <img src="images/mouse.png" alt="">
+
+            <div class="first-view_contacts">
+                <p class="first-view_contacts-adress">Наб. реки Фонтанки 10-15</p>
+                <p class="first-view_contacts-phone">8 (812) 123-45-67</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="second-block">
+        <div class="regular">
+            <div class="second-block_el animate__animated animate__backInDown">
+                <img src="images/Group.png" alt="">
+                <p class="discription">Рядом исторические 
+                    парки и скверы</p>
+            </div>        
+            <div class="second-block_el">
+                <img src="images/building.png" alt="">
+                <p class="discription">Полностью обустроенный</p>
+            </div>        
+            <div class="second-block_el">
+                <img src="images/fountain.png" alt="">
+                <p class="discription">10 фонтанов на территории</p>
+            </div>        
+            <div class="second-block_el">
+                <img src="images/bicycle.png" alt="">
+                <p class="discription">6 км велодорожек</p>
+            </div>        
+        </div>
+    </section>
+
+    <section  class="appartments-block">
+        <div class="regular">
+            <h2>Наши квартиры</h2>
+            <div class="appartments-block_wrapper">
+                <div class="appartments-block_el appartments-block_el-1">
+                    <p>Лофт - 1 этажа</p>
+                        <a href="..//Проект_landing/images/loft-1.png"
+                        data-fancybox="gallery" 
+                        data-caption="First image">
+                            <img src="..//Проект_landing/images/loft-1.png" alt="" />
+                        </a>
+                </div>
+                <div class="appartments-block_el appartments-block_el-2">
+                    <p>Лофт - 2 этажа</p>
+                        <a href="..//Проект_landing/images/loft-2.png" 
+                            data-fancybox="gallery" 
+                            data-caption="Second image">
+                            <img src="..//Проект_landing/images/loft-2.png" alt="" />
+                        </a>
+                </div>
+                <div class="appartments-block_el appartments-block_el-3">
+                    <p>Лофт - 3 этажа</p>
+                        <a href="..//Проект_landing/images/loft-3.png" 
+                        data-fancybox="gallery" 
+                        data-caption="Third image">
+                            <img src="..//Проект_landing/images/loft-3.png" alt="" />
+                        </a>
+                </div>
+                <div class="appartments-block_el appartments-block_el-4">
+                    <p>Лофт - 4 этажа</p>
+                        <a href="..//Проект_landing/images/loft-4.png" 
+                        data-fancybox="gallery" 
+                        data-caption="444444444f">
+                            <img src="..//Проект_landing/images/loft-4.png" alt="" />
+                        </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section  class="third-block">
+        <div class="regular">
+           
+            <div class="thirt-block-text">
+                <h2>Хотите посмотреть?</h2>
+                <p>Lorem Ipsum - это текст-"рыба", астчо используемый 
+                    в печати и вэб-дизайне. Lorem Ipsum является стандартной 
+                    "рыбой" для текстов на латинице с начала XVI века. 
+                    В то время некий безымянный печатник создал большую 
+                    коллекцию размеров и форм шрифтов, используя
+                </p>
+            </div>
+            
+                <form id="q-form" class="first-form" action="">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+
+                    <input type="tel" name="phone" placeholder="Ваш телефон" required>
+
+                    <div class="form-text">*Мы никому не передаем ваши данные. 
+                        И не сохраняем ваш номер в базу.
+                    </div>
+
+                    <input type="submit" value="Посмотреть район">
+                </form>
+
+                <div class="submit-notice animate__animated animate__shakeY">Форма успешно отправлена</div>
+                
+       </div>
+    </section>
+
+    <script>
+        
+        $('#q-form').submit(function (event) {
+            event.preventDefault();
+            console.log(event);
+
+            $('#q-form').hide();
+            $('.submit-notice').fadeIn();
+
+        })
+    </script>
+
+
+
+
+
+
+    <section class="video-block">
+        <div class="regular">
+            <div class="movie">
+                <video id="video-movie" poster="video/duel.jpg">
+                    <source src="video/All Elon Musk Hollywood.mp4" type='video/webm; codecs="vp8, vorbis"'>
+                    Тег video не поддерживается вашим браузером. 
+                    <a href="video/All Elon Musk Hollywood.mp4">Скачайте видео</a>.
+                </video>
+
+            <div class="play-button"></div>
+
+            </div>
+        </div>
+
+<script>
+    jQuery(document).ready(function ($) {
+            $('.play-button').click(function () {
+                $('video').trigger('play');
+                $(this).hide();
+            });
+            $('#video-movie').click(function () {
+                if ($('video')[0].paused) {
+                    $('video').trigger('play');
+                    $('.play-button').hide();
+                } else {
+                    $('video').trigger('pause');
+                    $('.play-button').show();
+                }
+            })
+        });
+</script>
+    </section>
+
+<section class="map">
+    <div class="regular">
+        <h2>Район на карте</h2>
+    </div>
+    <div class="yandex_map">
+        <div style="position:relative;overflow:hidden;">
+            <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/?indoorLevel=1&ll=30.320386%2C59.927919&utm_medium=mapframe&utm_source=maps&z=17.75" style="color:#eee;font-size:12px;position:absolute;top:14px;">Санкт‑Петербург — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCUF6UgugD" width="1236px" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+    </div>
+</section>
+
+<section class="section-questions">
+    <div class="regular">
+        <h2>Есть вопросы?</h2>
+
+        <form id="q-form" class="form-questions" action="">
+            
+            <div class="div-form">
+                Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.
+            </div>
+            
+            <input name="q_name" type="text" placeholder="Ваше имя">
+            <input name="q_phone" type="tel" placeholder="Ваш телефон">
+            <input type="submit" value="Посмотреть район">
+
+        </form>
+
+    </div>
+</section>
+
+
+    <script>
+        $(".burger-icon").click(function () {
+
+            if ($(".top-menu").is(":hidden")) {
+                $(".top-menu").addClass("mobile-open");
+                $(".top-menu").slideToggle("fast");
+            } else {
+                $(".top-menu").slideToggle("fast", function () {
+                    $(".top-menu").removeClass("mobile-open");
+                });
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js">
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+
+
+<style>
+
+</style>
+
+
+</html>

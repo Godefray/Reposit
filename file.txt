@@ -1,6 +1,12 @@
 https://www.figma.com/file/3xDfxVb5ku5CCXhYXM1SJd/Templates-%238.-More-on-Figma.info-(Copy)?node-id=1%3A3
 
+https://atuin.ru/blog/animaciya-elementov-pri-prokrutke-wow-js/
+
 https://cloud.mail.ru/public/wFne/z3irfHkPt
+
+phpMyAdmin
+sl1357n3_new
+Absent123456
 
 body {
     background-color: #242B33;

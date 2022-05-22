@@ -16,35 +16,34 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
     />
+    <link rel="stylesheet" href="css/animate.min.css">
+    <script src="https://kit.fontawesome.com/98de539bba.js" crossorigin="anonymous"></script>
 
-    <link
+    <!-- <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
+    /> -->
 </head>
 
 <body>
     <header>
-    <div class="regular">
-        <div class="logo">
-            <img src="images/logo.png" alt="">
+        <div class="regular">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
                 <p>Жилой комплекс</p>
+            </div>
+                <nav class="top-menu">
+                    <ul>
+                        <li>О компании</li>
+                        <li>Район</li>
+                        <li>Каталог квартир</li>
+                        <li>Ипотека</li>
+                        <li>Контакты</li>
+                    </ul>
+                </nav>
+                    <div class="burger-icon"></div>
         </div>
-        <nav class="top-menu">
-            <ul>
-                <li>О компании</li>
-                <li>Район</li>
-                <li>Каталог квартир</li>
-                <li>Ипотека</li>
-                <li>Контакты</li>
-            </ul>
-        </nav>
-        <div class="burger-icon">
-
-        </div>
-    </div>
-     
-        </header>
+    </header>
 
     <section class="first-view">
         <div class="regular">
@@ -60,7 +59,7 @@
 
     <section class="second-block">
         <div class="regular">
-            <div class="second-block_el animate__animated animate__backInDown">
+            <div class="second-block_el wow pulse">
                 <img src="images/Group.png" alt="">
                 <p class="discription">Рядом исторические 
                     парки и скверы</p>
@@ -226,9 +225,54 @@
             <input type="submit" value="Посмотреть район">
 
         </form>
-
     </div>
 </section>
+
+<section  class="footer">
+    <div class="regular">
+        <div class="logo_footer">
+            <img src="images/logo.png" alt="">
+            <p>Жилой комплекс</p>
+        </div>
+
+        <div class="list_1">
+            <ul>
+                <li>О компании</li>
+                <li>Район</li>
+                <li>Каталог квартир</li>
+                <li>Ипотека</li>
+                <li>Контакты</li>
+            </ul>
+        </div>
+
+        <div class="list_2">
+            <ul>
+                <li>О компании</li>
+                <li>Район</li>
+                <li>Каталог квартир</li>
+                <li>Ипотека</li>
+                <li>Контакты</li>
+            </ul>
+        </div>
+
+        <div class="footer_contacts">
+            <ul>
+                <li>Адрес: Наб. реки Фонтанки 10-15</li>
+                <li>Телефон: 8 (812) 123-45-67</li>
+                <li>Отдел продаж: 10:00 - 20:00</li>
+                <li>E-mail: <span style="color: #D4C17F">vip@housevip.ru</span></li>
+            </ul>
+            <div class="social_items">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-vk"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
     <script>
@@ -246,6 +290,9 @@
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js">
+    </script>
+    <script src="js/wow.min.js">
+
     </script>
     <script>
         new WOW().init();
